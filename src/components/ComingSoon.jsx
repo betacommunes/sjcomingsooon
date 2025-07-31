@@ -13,7 +13,7 @@ const ComingSoon = () => {
 
   const calculateTimeLeft = () => {
     const now = new Date();
-    const launchDate = new Date("2025-08-01T00:00:00");
+    const launchDate = new Date("2025-08-15T00:00:00");
 
     const difference = launchDate.getTime() - now.getTime();
 
@@ -94,7 +94,7 @@ const ComingSoon = () => {
           {/* Social Icons */}
           <div className="flex justify-center md:justify-start gap-6 mt-8 text-primary text-xl">
             <a
-              href="https://www.instagram.com/_sj_furnitures?igsh=bmlmZ2oxOXUxZ25y"
+              href="https://www.instagram.com/_sj_furnitures/"
               target="_blank"
               rel="noopener noreferrer"
             >
